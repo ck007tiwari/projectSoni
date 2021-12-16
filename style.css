@@ -38,7 +38,7 @@ html {
 
 #maindiv2 {
    width: 100%;
-   height: 100Vh;
+   height: 80Vh;
    overflow: hidden;
    /* position: relative; */
    background-image: url(img/Pic3.jpg);
@@ -52,6 +52,7 @@ html {
 }
 
 .cir {
+   Padding:2%;
    width: 40vh;
    height: 40vh;
    border-radius: 50%;
@@ -60,23 +61,24 @@ html {
 #cir1 {
    background-color: #EB8B3C;
    position: relative;
-   top: -250px;
-   left: 100px;
+   top: -100%;
+   left: 30%;
 }
 #cir2 {
    background-color: #757575;
    position: relative;
-   top: -490px;
-   left: 50px;
+   top: -200%;
+   left: 15%;
 }
 #cir {
+   /* padding:5%; */
    width: 40vh;
    height: 40vh;
    background-color: #C43735;
    position: relative;
    border-radius: 50%;
-   top: 25px;
-   left: 15px;
+   top: 5%;
+   left: 1%;
    text-align: center;
 }
 /* #cir:hover {left: 15px; transition:1s} */
@@ -84,16 +86,12 @@ html {
 #cir:hover #cir2 {left:30px; transition:.5s}
 #cir:hover {left:20px; transition:.5s}
 
-a{
-   color: white;
+#div2a{
+   margin:auto;
+   color: #1137b4;
    text-decoration:double ;
+   /* font-size:20vh; */
 }
-
-
-
-
-
-
 
 #maindiv3 {
    font-weight: 600;
@@ -101,35 +99,3 @@ a{
    margin: 40px;
 }
 
-
-
-/* @keyframes change{
-    0%
-    {
-        background-image: url(img/Pic11.jpg);
-    }
-    20%
-    {
-        background-image: url(img/among.png);
-    }
-    40%
-    {
-        background-image: url(img/Pic11.jpg);
-    }
-    60%
-    {
-        background-image: url(img/Pic11.jpg);
-
-        
-    }
-    80%
-    {
-        background-image: url(img/Pic11.jpg);
-
-    }
-    100%
-    {
-        background-image: url(img/Pic11.jpg);
-
-    }
-} */
