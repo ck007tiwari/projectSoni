@@ -48,11 +48,11 @@ html {
    /* text-align: center;
     justify-content: center; */
    /* padding: 10%; */
-   color:white;
+   color: white;
 }
 
 .cir {
-   Padding:2%;
+   Padding: 2%;
    width: 40vh;
    height: 40vh;
    border-radius: 50%;
@@ -64,12 +64,14 @@ html {
    top: -100%;
    left: 30%;
 }
+
 #cir2 {
    background-color: #757575;
    position: relative;
    top: -200%;
    left: 15%;
 }
+
 #cir {
    /* padding:5%; */
    width: 40vh;
@@ -81,15 +83,27 @@ html {
    left: 1%;
    text-align: center;
 }
-/* #cir:hover {left: 15px; transition:1s} */
-#cir:hover #cir1 {left:60px; transition:.5s}
-#cir:hover #cir2 {left:30px; transition:.5s}
-#cir:hover {left:20px; transition:.5s}
 
-#div2a{
-   margin:auto;
+/* #cir:hover {left: 15px; transition:1s} */
+#cir:hover #cir1 {
+   left: 60px;
+   transition: .5s
+}
+
+#cir:hover #cir2 {
+   left: 30px;
+   transition: .5s
+}
+
+#cir:hover {
+   left: 20px;
+   transition: .5s
+}
+
+#div2a {
+   /* margin: auto; */
    color: #1137b4;
-   text-decoration:double ;
+   text-decoration: double;
    /* font-size:20vh; */
 }
 
@@ -97,5 +111,54 @@ html {
    font-weight: 600;
    text-align: center;
    margin: 40px;
+
 }
 
+#maindiv4 {
+   
+   width: 100%;
+   height: 100%;
+   /* position:absolute; */
+}
+
+
+#div31,
+#div32,
+#div33,
+#div34,
+#div35,
+#div36,
+#div37,
+#div38,
+#div39 {
+   background-image: url(img/Pic7.jpg);
+   width: 100px;
+   height: 10em;
+   /* margin: 0%; */
+   opacity: 0.7;
+   background-position: center;
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   transition: width 1s;
+   background-color: #1137b4;
+   
+}
+
+#div31:hover,
+#div34:hover,
+#div35:hover,
+#div39:hover,
+#div36:hover,
+#div37:hover,
+#div38:hover,
+#div32:hover,
+#div33:hover {
+   cursor: pointer;
+   opacity: 1;
+   /* width: 110px; */
+   /* background-color: red; */
+   /* transition: all 0.25s ease-in-out 0s; */
+   /* transform: scale(1.06); */
+   /* transition: 0.5s;   */
+   width: 200PX;
+}
